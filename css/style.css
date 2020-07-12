@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Acme', sans-serif;
+}
+nav{
+    margin: auto;
+    display: block;
+    text-align: center;
+    font-size: 1.50rem;
+}
+.logo{
+    display: block;
+    margin: auto;
+    height: 90px;
+    width: 90px;
+}
+body{
+    background-image: linear-gradient(rgb(255, 231, 231), rgb(248, 235, 122));
+    height: 100vh;
+}
+
+.container{
+    max-width: 980px;
+    border: black 5px solid;
+    border-radius: 15px;
+    margin: auto;
+    height: 60vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 15px;
+}
+
+.message{
+    background-color: silver;
+    width: 25%;
+    padding: 5px 12px;
+    margin: 15px 0px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 12px;
+
+}
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+
+}
+#send-container{
+    max-width: 92%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+#messageInp{
+    outline: none;
+    width: 92%;
+    border: 2px solid black;
+    border-radius: 7px;
+    height: 34px;
+}
+.btn{
+    outline: none;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+.btn i{
+    font-size: 35px;
+    margin-left: 5px;
+}
