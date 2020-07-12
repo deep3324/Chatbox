@@ -6,11 +6,22 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "author": "Deep",
   "license": "ISC",
   "dependencies": {
+    "request": "^2.88.2",
     "socket.io": "^2.3.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deep3324/chatbox.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/deep3324/chatbox.github.io/issues"
+  },
+  "homepage": "https://github.com/deep3324/chatbox.github.io#readme"
 }
